@@ -1,5 +1,9 @@
 # 🔴 DARK SQL | DATABASE USER PARSER 🔴
 
+<p align="center">
+  <img width="300" height="250" alt="image" src="https://github.com/user-attachments/assets/25fc9462-c1e9-4167-a1c6-3687b2d49798" />
+</p>
+
 Software desenvolvido para **visualização, organização e separação de usuários** a partir de arquivos de texto (logs/databases).  
 O sistema processa dados brutos e os estrutura utilizando Python com abordagem orientada a objetos.
 
@@ -9,12 +13,13 @@ O sistema processa dados brutos e os estrutura utilizando Python com abordagem o
 
 O projeto segue uma estrutura modular organizada para separar responsabilidades entre dados, lógica e modelagem:
 
+```
 src/
 ├── database/ # Contém o arquivo database.txt (base de dados)
 ├── full/ # Execução principal e lógica (databaseUser.py, exe.py)
 ├── logo/ # Elementos visuais (ASCII/logo)
 └── model/ # Estrutura de dados (@dataclass)
-
+```
 ---
 
 ## ⚠️ Configurações Importantes
@@ -76,7 +81,7 @@ print(usuario["email"])
 Para evitar problemas com importação de módulos, execute sempre a partir da raiz do projeto:
 
 ```bash
-cd "c:\\Users\\fir777\\Desktop\\Nova pasta (6)"
+cd "c:\\Users\\pasta"
 python -m src.main
 ```
 
